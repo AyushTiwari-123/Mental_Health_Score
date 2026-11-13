@@ -3,7 +3,7 @@
 
   // The frontend may be opened from FastAPI or a separate local static server.
   // Always send predictions to the FastAPI server, where POST /predict lives.
-  const API_BASE = "http://127.0.0.1:2200";
+  const API_BASE = "https://mental-health-score-x7yq.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
