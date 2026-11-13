@@ -1,0 +1,6 @@
+# Runtime dependencies for the FastAPI app and its scikit-learn model.
+fastapi
+joblib
+pandas
+scikit-learn==1.6.1
+uvicorn[standard]
